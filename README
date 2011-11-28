@@ -1,0 +1,44 @@
+Descrição dos exemplos do Kit Arduino Básico.
+
+1) exp01_leds: Controla o acionamento de alguns leds usando o efeito de Fade.
+
+2) exp02_pot: Evolucao do experimento 01, controla o acionamento de alguns 
+leds usando o efeito de Fade mas agora com o potenciometro cuidando do tempo
+que o fade e executado.
+
+exp02_potLevel: Continuacao do experimento 2 porem agora usamos os leds para
+mensurar o valor da resistencia do pot. Quanto mais alto o valor maior o numero
+ de leds acessos.
+
+3) exp03_termistor: Faz a leitura do sensor de temperatura - termistor e exibe
+ o resultado pela porta Serial.
+
+exp03_termistorLeds: Faz a leitura do sensor de temperatura - termistor e com 
+base no valor da resistencia do termistor aciona alguns leds para indicar a
+temperatura.
+
+4) exp04_reed: 
+Exp. com o reed switch, poderia ser um alarme
+
+5) exp05_ledrgb01: Oscila o LED RGB com o efeito de fade, primeiro acende
+com a cor vermelha depois verde e depois azul.
+
+exp05_ledrgb02: Gera um numero aleatorio entre 0 e 2, dependendo do numero uma
+cor do led fica apagada por completo. As outras duas cores variam de 0 ate um
+valor maximo igual ao segundo numero aleatorio gerado.
+
+6) exp06_ldr: Faz a leitura do sensor de luminosidade LDR e controla o
+acionamento do LED vermelho no LED RGB. Quanto mais escuro mais claro o LED
+vermelho ficara.
+
+7) exp07_infra: Faz a leitura do sensor infra-vermelho (foto transistor) e se
+o sinal for interrompido desliga os leds.
+
+
+8) exp08_piezoSensor: Tambem conhecido como 'knock sensor' utiliza o cristal
+piezoeletrico como um sensor.
+
+9) exp09_melodia: Toca uma melodia.
+
+10) exp10_keys: Usa 4 chaves tacteis para controlar o acionamento de 6 leds. Cada
+botao chama uma funcao com comportamento diferente.
