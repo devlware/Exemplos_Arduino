@@ -1,44 +1,58 @@
 Descrição dos exemplos do Kit Arduino Básico.
 
 1) exp01_leds: Controla o acionamento de alguns leds usando o efeito de Fade.
+Link para o video no youtube: http://www.youtube.com/watch?v=dOtsb_jwiCc
 
 2) exp02_pot: Evolucao do experimento 01, controla o acionamento de alguns 
 leds usando o efeito de Fade mas agora com o potenciometro cuidando do tempo
 que o fade e executado.
+Link para o video no youtube: http://www.youtube.com/watch?v=WpmncokMS6Y
 
 exp02_potLevel: Continuacao do experimento 2 porem agora usamos os leds para
 mensurar o valor da resistencia do pot. Quanto mais alto o valor maior o numero
  de leds acessos.
+Link para o video no youtube: http://www.youtube.com/watch?v=-MJudC8ejCY
 
 3) exp03_termistor: Faz a leitura do sensor de temperatura - termistor e exibe
  o resultado pela porta Serial.
+Link para o video no youtube: NAO DISPONIVEL
 
 exp03_termistorLeds: Faz a leitura do sensor de temperatura - termistor e com 
 base no valor da resistencia do termistor aciona alguns leds para indicar a
 temperatura.
+Link para o video no youtube: http://www.youtube.com/watch?v=NVWGQ-9lPhw
 
-4) exp04_reed: 
-Exp. com o reed switch, poderia ser um alarme
+4) exp04_reed: Exp. com o reed switch, poderia ser um alarme.
+Link para o video no youtube: http://www.youtube.com/watch?v=nOTXz5lYpYw
 
 5) exp05_ledrgb01: Oscila o LED RGB com o efeito de fade, primeiro acende
 com a cor vermelha depois verde e depois azul.
+Link para o video no youtube: http://www.youtube.com/watch?v=7rHfuSh3Ro0 
 
 exp05_ledrgb02: Gera um numero aleatorio entre 0 e 2, dependendo do numero uma
 cor do led fica apagada por completo. As outras duas cores variam de 0 ate um
 valor maximo igual ao segundo numero aleatorio gerado.
+Link para o video no youtube: http://www.youtube.com/watch?v=NXqzTEstjSI
 
 6) exp06_ldr: Faz a leitura do sensor de luminosidade LDR e controla o
 acionamento do LED vermelho no LED RGB. Quanto mais escuro mais claro o LED
 vermelho ficara.
+Link para o video no youtube: http://www.youtube.com/watch?v=773ESozEucE
 
 7) exp07_infra: Faz a leitura do sensor infra-vermelho (foto transistor) e se
 o sinal for interrompido desliga os leds.
-
+Link para o video no youtube: http://www.youtube.com/watch?v=StQJCVAUKkA
 
 8) exp08_piezoSensor: Tambem conhecido como 'knock sensor' utiliza o cristal
 piezoeletrico como um sensor.
+Link para o video no youtube: AINDA NAO DISPONIVEL
 
 9) exp09_melodia: Toca uma melodia.
+Link para o video no youtube: http://www.youtube.com/watch?v=NTTvpuVs0WA
 
 10) exp10_keys: Usa 4 chaves tacteis para controlar o acionamento de 6 leds. Cada
 botao chama uma funcao com comportamento diferente.
+Link para o video no youtube: http://www.youtube.com/watch?v=kGyywW7OfMM
+
+11) exp11_7segmentos: Controla o acionamento de um display de 7 segmentos.
+Link para o video no youtube: http://www.youtube.com/watch?v=PFdCdj7t3Xo

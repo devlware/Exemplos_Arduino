@@ -4,7 +4,8 @@
 * Descricao: Faz a leitura do sensor de temperatura - termistor e com base no valor
 * da resistencia do termistor aciona alguns leds para indicar a temperatura.
 *  
-* Escrito por: Diego W. Antunes <diego@imbrax.com.br>
+* Escrito por: Diego W. Antunes <diego@imbrax.com.br> usando como base o codigo da
+* http://www.ladyada.net/learn/sensors/thermistor.html da Ladyada.
 * Data: 01/10/2011
 *************************************************************************************/
 

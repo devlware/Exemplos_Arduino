@@ -1,7 +1,8 @@
 /************************************************************************************
 * IMBRAX - INDUSTRIA MECATRONICA BRASILEIRA
 * Nome: exp10_keys
-* Descricao: 
+* Descricao: Usa 4 chaves tacteis para controlar o acionamento de 6 leds. Cada botao
+* chama uma funcao com comportamento diferente.
 *  
 * Escrito por: Diego W. Antunes <diego@imbrax.com.br>
 * Data: 01/10/2011

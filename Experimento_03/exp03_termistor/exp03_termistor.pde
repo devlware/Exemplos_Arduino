@@ -4,7 +4,8 @@
 * Descricao: Faz a leitura do sensor de temperatura - termistor e exibe o resultado
 * pela porta Serial.
 *  
-* Escrito por: Diego W. Antunes <diego@imbrax.com.br>
+* Escrito por: Diego W. Antunes <diego@imbrax.com.br> usando como base o codigo da
+* http://www.ladyada.net/learn/sensors/thermistor.html da Ladyada.
 * Data: 01/10/2011
 *************************************************************************************/
 
