@@ -10,7 +10,7 @@
 /************************************************************************************
 * Constantes utilizadas no programa
 ************************************************************************************/
-const int piezoPin = 0; // Pino onde esta conectado o sensor piezoeletrico
+const int piezoPin = 1; // Pino onde esta conectado o sensor piezoeletrico
 const int ledPin = 13; // Pino da placa Arduino onde tem um led soldado
 
 /************************************************************************************
@@ -18,7 +18,7 @@ const int ledPin = 13; // Pino da placa Arduino onde tem um led soldado
 ************************************************************************************/
 byte val = 0;
 int statePin = LOW;
-int THRESHOLD = 200;
+int THRESHOLD = 100;
 
 /************************************************************************************
 * Funcao: setup
@@ -28,7 +28,8 @@ int THRESHOLD = 200;
 void setup()
 {
   pinMode(piezoPin, INPUT);
-  pinMode(ledPin, OUTPUT); 
+  pinMode(ledPin, OUTPUT);
+  Serial.begin(9600);       // use the serial port  
 }
 
 /************************************************************************************
@@ -39,11 +40,12 @@ void setup()
 void loop()
 {
   val = analogRead(piezoPin);
-
+  
   if (val >= THRESHOLD) {
     statePin = !statePin;
     
     digitalWrite(ledPin, statePin);
+    Serial.println(val, DEC);    
   }
   delay(100);  // we have to make a delay to avoid overloading the serial port
 }
