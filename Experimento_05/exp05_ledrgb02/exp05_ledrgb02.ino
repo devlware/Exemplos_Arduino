@@ -43,7 +43,7 @@ void setup()
 void loop()
 {
   int randNumber = 0;
-  int ledFixo = 0
+  int ledFixo = 0;
   
   analogWrite(greenPin, 0);
   analogWrite(redPin, 0);
