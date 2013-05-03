@@ -1,7 +1,8 @@
 /************************************************************************************
 * IMBRAX - INDUSTRIA MECATRONICA BRASILEIRA
 * Nome: exp08_piezoSensor
-* Descricao: 
+* Descricao: Faz a leitura do sensor piezoeletrico e envia pela serial o valor lido
+* quando este passa do valor limite, o LED na placa tambem comuta.
 *  
 * Escrito por: Diego W. Antunes <diego@imbrax.com.br>
 * Data: 01/10/2011
@@ -18,7 +19,7 @@ const int ledPin = 13; // Pino da placa Arduino onde tem um led soldado
 ************************************************************************************/
 byte val = 0;
 int statePin = LOW;
-int THRESHOLD = 100;
+int THRESHOLD = 50;
 
 /************************************************************************************
 * Funcao: setup
